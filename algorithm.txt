@@ -1,1 +1,18 @@
-THINK before you code...
+Algorithm for MarioKartPlayer Class:
+1. Define a class called MarioKartPlayer
+2. Declare private attributes: playerName (String), character (String), speed (int)
+3. Define a constructor to initialize playerName, character, and speed
+    3a. Assign the provided playerName, character, and speed to the respective attributes
+4. Define a method called boost()
+    4a. Increase the speed attribute by 10 to simulate boosting
+5. Define a method called displayInfo()
+    5a. Print playerName, character, and speed attributes
+
+
+Algorithm for MarioKartGame Class:
+1. Define a class called MarioKartGame
+2. Define the main method
+3. Instantiate two MarioKartPlayer objects with different names, characters, and starting speeds
+4. Display the information of both players using displayInfo() method
+5. Simulate a boost action for each player using boost() method
+6. Display the updated information of both players after the boost using displayInfo() method
